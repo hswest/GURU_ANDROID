@@ -16,126 +16,6 @@
         app:layout_constraintTop_toBottomOf="@+id/sisdeBar"
         tools:srcCompat="@android:drawable/star_off" />
 
-    <TextView
-        android:id="@+id/thursday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
-        android:text="목"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/wednesday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
-    <Button
-        android:id="@+id/dateButton1"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="16dp"
-        android:text="16"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/monday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/dateButton5"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="12dp"
-        android:text="20"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/dateButton4"
-        app:layout_constraintTop_toBottomOf="@+id/friday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/sunday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
-        android:text="일"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/saturday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
-    <Button
-        android:id="@+id/dateButton2"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="8dp"
-        android:text="17"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/dateButton1"
-        app:layout_constraintTop_toBottomOf="@+id/tuseday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/friday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
-        android:text="금"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/thursday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
-    <TextView
-        android:id="@+id/wednesday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
-        android:text="수"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/tuseday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
-    <Button
-        android:id="@+id/dateButton3"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="12dp"
-        android:text="18"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/dateButton2"
-        app:layout_constraintTop_toBottomOf="@+id/wednesday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/dateButton6"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="8dp"
-        android:text="21"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/dateButton5"
-        app:layout_constraintTop_toBottomOf="@+id/saturday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/saturday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="8dp"
-        android:text="토"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/friday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="248dp"
@@ -153,10 +33,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="To do List"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateButton1" />
+        app:layout_constraintTop_toBottomOf="@+id/date" />
 
     <TextView
         android:id="@+id/diaryName"
@@ -167,41 +47,6 @@
         android:text="오늘의 감정"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
-
-    <TextView
-        android:id="@+id/tuseday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="8dp"
-        android:text="화"
-        android:textSize="10sp"
-        app:layout_constraintStart_toEndOf="@+id/monday"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
-
-    <Button
-        android:id="@+id/dateButton4"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="12dp"
-        android:text="19"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintStart_toEndOf="@+id/dateButton3"
-        app:layout_constraintTop_toBottomOf="@+id/thursday"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/monday"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:text="월"
-        android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/date" />
 
     <CheckBox
         android:id="@+id/checkBox1"
@@ -215,30 +60,14 @@
         app:layout_constraintTop_toBottomOf="@+id/toDoList"
         tools:ignore="TouchTargetSizeCheck" />
 
-    <Button
-        android:id="@+id/dateButton7"
-        android:layout_width="45dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginEnd="16dp"
-        android:text="22"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="8sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/dateButton6"
-        app:layout_constraintTop_toBottomOf="@+id/sunday"
-        tools:ignore="TouchTargetSizeCheck" />
-
     <TextView
         android:id="@+id/date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:text="2023년 1월 4주차"
-        android:textSize="16sp"
+        android:layout_marginTop="36dp"
+        android:text="2023.01.20"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/characterPos" />
 
@@ -252,15 +81,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_add" />
 
-    <ImageView
-        android:id="@+id/wholeCalendar"
-        android:layout_width="23dp"
-        android:layout_height="22dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toEndOf="@+id/date"
-        app:layout_constraintTop_toBottomOf="@+id/characterPos"
-        app:srcCompat="@android:drawable/ic_menu_today" />
-
     <EditText
         android:id="@+id/diaryText"
         android:layout_width="wrap_content"
@@ -273,5 +93,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/diaryName"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/selectDate"
+        android:layout_width="54dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/characterPos"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
